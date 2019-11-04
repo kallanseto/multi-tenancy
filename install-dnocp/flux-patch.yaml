@@ -17,3 +17,4 @@ spec:
             - --git-branch=master
             - --git-path=cluster/dnocp
             - --git-url=git@github.com:kallanseto/multi-tenancy
+            - --sync-garbage-collection

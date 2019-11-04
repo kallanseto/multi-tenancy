@@ -1,0 +1,4 @@
+namespace: app2
+resources:
+  - namespace.yaml
+  - ../../networkpolicy/
