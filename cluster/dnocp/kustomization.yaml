@@ -1,6 +1,6 @@
 resources:
-  - https://github.com/kallanseto/kube-prometheus/manifests/setup/
-  - https://github.com/kallanseto/kube-prometheus/manifests/
+# - https://github.com/kallanseto/kube-prometheus/manifests/setup/
+# - https://github.com/kallanseto/kube-prometheus/manifests/
   - ../common/
   - app1/
   - app3/
