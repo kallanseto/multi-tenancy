@@ -7,6 +7,8 @@ spec:
     spec:
       containers:
         - name: flux
+          image: kallanseto/flux-ing:1.1
+          imagePullPolicy: Always
           args:
             - --manifest-generation=true
             - --memcached-hostname=flux-memcached.flux-system
@@ -18,3 +20,4 @@ spec:
             - --git-path=cluster/dnocp
             - --git-url=git@github.com:kallanseto/multi-tenancy
             - --sync-garbage-collection
+            - --kubernetes-kubectl=/usr/local/bin/oc-alpine
